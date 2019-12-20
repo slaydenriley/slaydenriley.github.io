@@ -7,7 +7,7 @@ permalink:  cli_portfolio_project
 
 While coding consumes many hours of my day, my true "day job" is not as a student at Flatiron. It is, rather, as a professional banjo player. Throughout the year, I travel around the country with my band "National Park Radio" and play music for thousands of people at festivals, breweries, bars, houses, parks...you name it.
 
-That being said, I am OBSESSED with banjos. Specifically, Stelling banjos, which I believe are the best banjos ever built. So for my CLI Data Gem porfolio project, I thought it would be fun to create a "Stelling Banjo Catelog"  which people could use to view all the Stelling banjos for sale on elderly.com, get the price, and optionally view more information about each banjo.
+That being said, I am OBSESSED with banjos. Specifically, Stelling banjos, which I believe are the best banjos ever built. So for my CLI Data Gem porfolio project, I thought it would be fun to create a "Stelling Banjo Catalog"  which people could use to view all the Stelling banjos for sale on elderly.com, get the price, and optionally view more information about each banjo.
 
 # Building My *stelling_banjos* Gem
 
@@ -19,11 +19,11 @@ The program works like this:
 
 1. The executable ("../bin/banjo") starts the CLI class by calling *StellingBanjos::Cli.new.start*
 
-2. If the user decides to enter the catelog, the Scraper Class uses the provided link to scrape the webpage and put information into class variable, *@@all.*
+2. If the user decides to enter the catalog, the Scraper Class uses the provided link to scrape the webpage and put information into class variable, *@@all.*
 
-3. At this point, the Banjo Class creates banjos through a class method, *create_from_catelog*, which takes in the hash from Scraper.all
+3. At this point, the Banjo Class creates banjos through a class method, *create_from_catalog*, which takes in the hash from Scraper.all
 
-4. The CLI now neatly prints the banjos into a catelog format, as seen here:
+4. The CLI now neatly prints the banjos into a catalog format, as seen here:
 
 ```
 Loading...
@@ -71,7 +71,7 @@ Loading...
     MENU
     ══════════════════════════════════════════
     -Enter another banjo number
-    -Type 'Catelog' to view the catelog again
+    -Type 'Catalog' to view the catalog again
     -Type 'Exit' to exit
     ══════════════════════════════════════════
 ```
@@ -90,14 +90,14 @@ Loading...
     MENU
     ══════════════════════════════════════════
     -Enter another banjo number
-    -Type 'Catelog' to view the catelog again
+    -Type 'Catalog' to view the catalog again
     -Type 'Exit' to exit
     ══════════════════════════════════════════
 ```
 
 
 
-Originally, I had it so the Scraper Class would scrape *both* the catelog and the more information page for EVERY banjo at the start of the program. This however caused an extremely slow load time. I refactored the code so that the detailed information page was only scraped if the user wanted that information.
+Originally, I had it so the Scraper Class would scrape *both* the catalog and the more information page for EVERY banjo at the start of the program. This however caused an extremely slow load time. I refactored the code so that the detailed information page was only scraped if the user wanted that information.
 
 So there it is! While I feel like my vocabulary is still lacking a bit with OO Ruby, I do *finally* have a clear understanding on how classes interact with each other and the differences between instance/class methods.
 
