@@ -24,6 +24,7 @@ The program works like this:
 3. At this point, the Banjo Class creates banjos through a class method, *create_from_catelog*, which takes in the hash from Scraper.all
 
 4. The CLI now neatly prints the banjos into a catelog format, as seen here:
+
 ```
 Loading...
 
