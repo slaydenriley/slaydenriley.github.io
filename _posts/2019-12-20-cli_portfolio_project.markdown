@@ -103,7 +103,9 @@ So there it is! While I feel like my vocabulary is still lacking a bit with OO R
 
 Overall, I am really proud of myself for building this gem. 2 weeks ago, I never would have imagined being able to do this. For anyone worried about their first porfolio project, keep your head high, search google a LOT, and don't give up! It'll make sense eventually.
 
-If you want to check out my public repo, you can do so here: [https://github.com/slaydenriley/stelling_banjos](http://). Or if you want to install my gem and run it in your terminal (super easy!), simply type "gem install stelling_banjos", and type "banjo" into your terminal to start the CLI.
+If you want to check out my public repo, you can do so here: https://github.com/slaydenriley/stelling_banjos. Or if you want to install my gem and run it in your terminal (super easy!), simply type "gem install stelling_banjos", and type "banjo" into your terminal to start the CLI.
+
+You can also view my video overview of the gem here: https://www.youtube.com/watch?v=pXEBp6B22V0
 
 Thanks for reading,
 Riley
