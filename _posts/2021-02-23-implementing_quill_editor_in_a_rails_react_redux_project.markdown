@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Implementing Quill Editor in a Rails/React/Redux project "
-date:       2021-02-23 21:19:01 +0000
+date:       2021-02-23 16:19:02 -0500
 permalink:  implementing_quill_editor_in_a_rails_react_redux_project
 ---
 
